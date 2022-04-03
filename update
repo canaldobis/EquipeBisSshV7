@@ -1,1 +1,100 @@
-Ghh
+{
+  "Version": "1.0.0",
+  "ReleaseNotes": "",
+  "UrlUpdate": "https://raw.githubusercontent.com/canaldobis/EquipeBisSshV7/main/update",
+  "Sms": "https://raw.githubusercontent.com/canaldobis/EquipeBisSshV7/main/sms",
+  "EmailFeedback": "mailto:equipebis@equipebis.com",
+  "UrlContato": "https://t.me/equipebis",
+  "UrlTermos": "https://canaldobis.github.io/EquipeBisSshV7/Termos.html",
+  "Udp": [
+    {
+      "Porta": "7100"
+    },
+    {
+      "Porta": "7200"
+    },
+    {
+      "Porta": "7300"
+    },
+    {
+      "Porta": "7400"
+    },
+    {
+      "Porta": "7500"
+    }
+  ],
+  "Servers": [
+    {
+      "Name": "BR-2 PREMIUM",
+      "TYPE": "premium",
+      "FLAG": "br.png",
+      "ServerIP": "brasil2.equipebis.com",
+      "ServerPort": "22",
+      "SSLPort": "444",
+      "USER": "",
+      "PASS": ""
+    }
+  ],
+  "Networks": [
+    {
+      "Name": "VIVO",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: brasil2equipebis.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.18.7.80",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "VIVO e TIM",
+      "FLAG": "vivo",
+      "Payload": "GET wss://cdnjs.cloudflare.com/ HTTP/1.1[crlf]Host: brasil2equipebis.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "cdnjs.cloudflare.com",
+      "TlsIP": "104.16.18.94",
+      "ProxyIP": "104.16.18.94",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "TIM",
+      "FLAG": "tim",
+      "Payload": "GET ws://m.timbancavirtual.com.br/ HTTP/1.1\nHost: brasil2equipebis.xyz\nUpgrade: ws\n\n",
+      "SNI": "m.timbancavirtual.com.br",
+      "TlsIP": "104.16.133.83",
+      "ProxyIP": "104.16.133.83",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "CLARO VIVO TIM OI",
+      "FLAG": "claro",
+      "Payload": "GET ws://mobilidade.cloud.caixa.gov.br HTTP/1.1\nHost: brasil2equipebis.xyz\nUpgrade: ws\n\n",
+      "SNI": "mobilidade.cloud.caixa.gov.br",
+      "TlsIP": "104.16.56.6",
+      "ProxyIP": "104.16.56.6",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "OI",
+      "FLAG": "oi",
+      "Payload": "GET / HTTP/1.1[crlf]Host: brasil2equipebis.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "104.22.54.181",
+      "ProxyIP": "104.22.54.181",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "VIVO e OI",
+      "FLAG": "vivo",
+      "Payload": "GET  sni://mobilidade.cloud.caixa.gov.br HTTP/1.0[lf]Host: brasil2equipebis.xyz[lf]Upgrade: websocket[lf]Connection: Keep-Alive\nUser-Agent: [ua]\nReferer: [lf][lf]",
+      "SNI": "mobilidade.cloud.caixa.gov.br",
+      "TlsIP": "104.16.57.6",
+      "ProxyIP": "104.16.57.6",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    }
+  ]
+}
