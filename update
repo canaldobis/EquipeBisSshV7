@@ -7,7 +7,6 @@
   "UrlContato": "https://t.me/equipebis",
   "UrlTermos": "https://canaldobis.github.io/EquipeBisSshV7/Termos.html",
   "CheckUser": "true",
-  "FormatCheck": "ddmmyyyy",
   "Udp": [
     {
       "Porta": "7100"
