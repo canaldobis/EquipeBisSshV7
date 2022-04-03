@@ -6,6 +6,8 @@
   "EmailFeedback": "mailto:equipebis@equipebis.com",
   "UrlContato": "https://t.me/equipebis",
   "UrlTermos": "https://canaldobis.github.io/EquipeBisSshV7/Termos.html",
+  "CheckUser": "true",
+  "FormatCheck": "ddmmyyyy",
   "Udp": [
     {
       "Porta": "7100"
@@ -28,9 +30,10 @@
       "Name": "BR-2 PREMIUM",
       "TYPE": "premium",
       "FLAG": "br.png",
-      "ServerIP": "brasil2.equipebis.com",
+      "ServerIP": "brasil2equipebis.xyz",
+      "CheckUser": "http://20.206.68.170:5000/checkUser",
       "ServerPort": "22",
-      "SSLPort": "444",
+      "SSLPort": "443",
       "USER": "",
       "PASS": ""
     }
