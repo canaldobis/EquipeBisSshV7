@@ -3,11 +3,11 @@
   "ReleaseNotes": "",
   "UrlUpdate": "https://raw.githubusercontent.com/canaldobis/EquipeBisSshV7/main/update",
   "Sms": "https://raw.githubusercontent.com/canaldobis/EquipeBisSshV7/main/sms",
-  "EmailFeedback": "mailto:equipebis@equipebis.com",
-  "UrlContato": "https://t.me/equipebis",
+  "UrlContato": "https://api.whatsapp.com/send?phone=?",
   "UrlTermos": "https://canaldobis.github.io/EquipeBisSshV7/Termos.html",
+  "EmailFeedback": "equipebis@equipebis.com",
   "CheckUser": "true",
-  "FormatCheck": "yyyymmdd",
+  "FormatCheck": "ddmmyyyy",
   "Udp": [
     {
       "Porta": "7100"
@@ -31,7 +31,7 @@
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "brasil2equipebis.xyz",
-      "CheckUser": "http://20.206.68.170:5000/checkUser",
+      "CheckUser": "http://brasil2.equipebis.com:5000/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
