@@ -6,7 +6,7 @@
   "UrlContato": "https://api.whatsapp.com/send?phone=?",
   "UrlTermos": "https://canaldobis.github.io/EquipeBisSshV7/Termos.html",
   "EmailFeedback": "equipebis@equipebis.com",
-  "CheckUser": "true",
+  "CheckUser": "false",
   "FormatCheck": "ddmmyyyy",
   "Udp": [
     {
