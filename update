@@ -1,6 +1,6 @@
 {
-  "Version": "1.0.1",
-  "ReleaseNotes": "NOVAS CONFIGURAÇÕES PARA OPERADORA CLARO FORAM ADICIONADAS",
+  "Version": "1.0.2",
+  "ReleaseNotes": "NOVA CONFIGURAÇÃO PARA OPERADORA CLARO FOI ADICIONADA",
   "UrlUpdate": "https://raw.githubusercontent.com/canaldobis/EquipeBisSshV7/main/update",
   "Sms": "https://raw.githubusercontent.com/canaldobis/EquipeBisSshV7/main/sms",
   "UrlContato": "https://api.whatsapp.com/send?phone=?",
@@ -100,32 +100,12 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "CLARO FOZ",
+      "Name": "CLARO AKROSS",
       "FLAG": "tim",
-      "Payload": "GET ws://fozrioclaro.com.br/ HTTP/1.1\nHost: brasil2equipebis.xyz\nUpgrade: ws\n\n",
-      "SNI": "fozrioclaro.com.br",
-      "TlsIP": "fozrioclaro.com.br",
-      "ProxyIP": "fozrioclaro.com.br",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "CLARO PARCEIROS",
-      "FLAG": "tim",
-      "Payload": "GET ws://parceirosclaro.com.br/ HTTP/1.1\nHost: brasil2equipebis.xyz\nUpgrade: ws\n\n",
-      "SNI": "parceirosclaro.com.br",
-      "TlsIP": "parceirosclaro.com.br",
-      "ProxyIP": "parceirosclaro.com.br",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "CLARO TUDOFONE",
-      "FLAG": "tim",
-      "Payload": "GET ws://tudofoneapp.parceirosclaro.com.br/ HTTP/1.1\nHost: brasil2equipebis.xyz\nUpgrade: ws\n\n",
-      "SNI": "tudofoneapp.parceirosclaro.com.br",
-      "TlsIP": "tudofoneapp.parceirosclaro.com.br",
-      "ProxyIP": "tudofoneapp.parceirosclaro.com.br",
+      "Payload": "GET ws://content.akross.com.br/ HTTP/1.1\nHost: brasil2equipebis.xyz\nUpgrade: ws\n\n",
+      "SNI": "content.akross.com.br",
+      "TlsIP": "content.akross.com.br",
+      "ProxyIP": "content.akross.com.br",
       "ProxyPort": "443",
       "Info": "Tlsws"
     }
